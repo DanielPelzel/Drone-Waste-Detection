@@ -1,0 +1,14 @@
+names:
+- can
+- glass_bottle
+- plastic_bottle
+nc: 3
+roboflow:
+  license: CC BY 4.0
+  project: waste-detection-drone
+  url: https://universe.roboflow.com/jims-workspace-a1ypq/waste-detection-drone/dataset/1
+  version: 1
+  workspace: jims-workspace-a1ypq
+test: ../test/images
+train: ../train/images
+val: ../valid/images
