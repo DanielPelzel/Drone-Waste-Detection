@@ -20,11 +20,11 @@ def get_gps(image_path):
 
     return lat, lon
 
+
+"""@return a list of tuples containing the file name, latitude and longitude"""
 def get_all_gps(directory_path):
     gps_cords = []
     for file in os.listdir(directory_path):
-
-
 
         if file.endswith(".JPG"):
             full_path = os.path.join(directory_path, file)
@@ -48,4 +48,3 @@ print(gps)
 directory_path = "/media/daniel-pelzel/7048-990F/DCIM/100MEDIA/"
 
 
-# print(TAGS)
