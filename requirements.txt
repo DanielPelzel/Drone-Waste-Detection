@@ -1,3 +1,6 @@
 pillow
 ultralytics
 roboflow
+pandas
+folium
+xyzservices
